@@ -25,6 +25,4 @@ module.exports = buildSchema(`
     type Mutation{
         addBook(id: ID!, name: String!, genre: String!): Book
     }
-
-
 `)
